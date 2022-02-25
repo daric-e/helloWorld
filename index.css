@@ -1,0 +1,16 @@
+.heading {
+    color: red;
+    font-size: 5rem;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    transition-duration: 500ms;
+}
+
+.circle:hover {
+    transform: scale(2);
+}
